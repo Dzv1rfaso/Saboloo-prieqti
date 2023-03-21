@@ -1,0 +1,582 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none; }
+
+.maingverdi{
+  /* background-position: center; */
+  background-image: url(../img/backi.jpg);
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  /* background-color: #000000; */
+  
+}
+@media only screen and (max-width: 600px) 
+{
+    .maingverdi{
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+   
+ }
+  header .logo a {
+    font-size: 20px;
+  }
+  header {
+    width: 100%;
+    height: 100px;
+  }
+  header nav ul {
+    width: 100%;
+  }
+  header nav ul li a{
+    font-size: 8px;
+  }
+  main h2 {
+    font-size: 20px;
+    color: #919090;
+    text-align: center;
+    margin-top: 5px;
+}
+  main .text {
+    font-size: 9px;
+    font-weight: bold;
+    color: #bdbdbd;
+    text-align: center;
+    margin-top: 50px;
+ }
+  main .container{
+    width: 100%;
+    height: 400px;
+    /* background-color: crimson; */
+    margin: 0 auto;
+    padding-top: 400px;
+    
+    
+    
+}
+  main .mtavari{
+    width: 80%;
+    height: 170px;
+    /* background-color: #00ffff; */
+    display: flex;
+    margin:auto;
+    
+} 
+   main div article{
+    height: 170px;
+}
+  main .anarekli{
+    width: 80%;
+    height: 90px;
+    /* background-color: #0000ff; */
+    display: flex;
+    margin: auto;
+    overflow: hidden;
+    
+ }
+  main .anarekli {
+    margin-top: -65px;
+    
+    
+}   
+  main .flex img {
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    /* border-radius: 5px; */
+    /* box-shadow: 0px 0px 15px #000000; */
+}
+ main .anareklia img {
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+    
+ }
+body .mainfooter{
+ margin-top: 70%;
+}
+.footeriisev .futeri {
+    color: #ffffff;
+    font-size: 8px;
+    font-weight: bold;
+ }
+div .futerigames{
+    width: 100px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 10px;
+}
+div .futerigame {
+    font-size: 5px;
+    font-weight: 500;
+    margin: 3px;
+    margin-left: 5px;
+}
+.footeriisev .social a{
+    width: 20px;
+    height: 20px;
+    font-size: 10px;
+}
+
+}
+
+header{
+    /* background-color: #27003d; */
+    padding: 5px;
+    height: 100px;
+ 
+}
+.logo a {
+    color: #00f2ff; 
+    padding: 2px;
+   /* background-color: azure; */
+    border-radius: 10px;
+    font-size: 30px;
+    margin-left: 10px;
+    text-shadow: 0px 0px 20px;
+    /* box-shadow: 0 0 10px;     */
+}
+.logo a:hover{
+    box-shadow: 0 0 10px #00f2ff;
+    transition: 0.5s;
+    background-color: #00f2ff; 
+    color: #324145;   
+}
+
+
+.flexx {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    width: 500px;
+    /* background-color: #fff315; */
+    border-radius: 5px;
+  }
+
+header nav ul a{
+    color: #00f2ff;
+    padding: 0px 10px;
+    font-size: 18px;
+     border-radius: 10px; 
+    position: relative;
+    margin-right: 20px;   
+}
+header nav ul a:hover{
+    box-shadow: 0 0 10px #00f2ff;
+    color: #919090;
+    background-color: #00f2ff;
+}
+
+h2 {
+    font-size: 40px;
+    color: #919090;
+    text-align: center;
+    margin-top: 5px;
+    
+}
+.text {
+    font-size: 18px;
+    font-weight: bold;
+    color: #bdbdbd;
+    text-align: center;
+    margin-top: 50px;
+}
+.container{
+    width: 100%;
+    height: 800px;
+    /* background-color: crimson; */
+    margin: auto;
+    padding-top: 225px;
+    
+    
+}
+.mtavari{
+    width: 65%;
+    height: 352px;
+    /* background-color: #00ffff; */
+    display: flex;
+    margin:auto;
+} 
+article{
+    height: 350px;
+}
+.anarekli{
+    width: 65%;
+    height: 150px;
+    /* background-color: #0000ff; */
+    display: flex;
+    margin: auto;
+    overflow: hidden;
+ }
+.anarekli {
+    margin-top: -90px;
+    
+    
+}   
+.flex { 
+    width: 10%;
+    height: 350px;
+    /* background-color: #00ffff; */
+    margin: 2px;
+    
+}
+
+.flex img {
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    /* border-radius: 5px; */
+    /* box-shadow: 0px 0px 15px #000000; */
+}
+.surati:hover{
+    transform: scale(1.1);
+    transition: 1.5s;
+    /* box-shadow: 10px 10px 10px #000000;  */
+}
+
+.anareklia img {
+    opacity: 0.2;
+    border-radius: 5;
+}    
+.mainfooter{
+    height: 100px;
+    background-color: #000000;
+    padding-top: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row: minmax(10px, auto);
+    margin-top: -60px;
+  
+    
+}
+
+footer{
+    height: 100px;
+    background-color: #000000;
+    padding-top: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row: minmax(10px, auto);
+    margin-top: 13%;
+  
+    
+}
+.footeriisev{
+    /* height: 130px; */
+    border-left: 1px solid #ffffff ;
+    border-right: 1px solid #ffffff ;
+    text-align: center;
+    /* margin-left: 20px; */
+    
+}
+
+.futeri {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+ }
+.futerigames{
+    width: 500px;
+    display: flex;
+    /* padding: 10px; */
+    /* background-color: #0814bf; */
+    
+}
+.futerigame {
+    font-size: 10px;
+    font-weight: 500;
+    margin: 10px;
+}
+.futerigame a {
+    color: #fbff10;
+}
+.social a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px; 
+    background: transparent;
+    border: 2px solid #00f2ff;  
+    border-radius: 50%;
+    font-size: 20px;
+    color: #00f2ff;
+    /* margin: 30px 15px 30px 0px; */
+    margin-top: 10px;
+    margin-left: 10px;
+    
+   }
+   .social a:hover {
+       background-color: #00f2ff;
+       color: rgb(42, 53, 53);
+       box-shadow: 0px 0px 20px;
+       transition: 0.5s ;
+   }
+   
+
+  /*registraciis gverdi  */
+.regbody{
+    background-color: #000000;
+   
+ }
+.registration {
+    margin-top: 100px;
+  
+}
+.reg {
+    width: 400px;
+    
+    margin: 0px auto;
+}
+.reg input{
+    width: 100%;
+    outline: none;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0px 0px 20px #0814bf;
+    opacity: 0.7;
+    
+}
+
+    
+
+/* Log In gverdi */
+
+.Login {
+    width: 500px;
+    margin: 0px auto;
+    margin-top: 50px;
+    
+} 
+.Login input {
+    width: 100%;
+    outline: none;
+    padding: 14px;
+    margin-bottom: 20px;
+    background-color: #b8b7b7; 
+}
+.remember {
+    width: 500px;
+    margin: 5px auto;
+    color: #ffffff;
+}
+.remember label {
+    color: #ffffff;
+    padding: 14px;
+    margin-bottom: 5px;
+}
+.Logbutton {
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px;
+    background-color: #919090;
+    margin: auto;
+    text-align: center;
+    width: 500px;
+    cursor: pointer;
+}
+.Logbutton:hover{
+    background-color: #414141;
+}
+.notaccount {
+    color: #00ddff;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    text-shadow: 0px 0px 10px;
+}
+p .logreg{
+    color: #af07e2;
+}
+.back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;    
+}
+@media (min-aspect-ratio: 16/9) {
+    .back-video{
+        width: 100%;
+        height: auto;
+    }
+}  
+
+
+ /* Gverdebi :)))  */
+.gamebody{
+    background-color: #000000;
+}
+
+ .gamebox{
+    width: 100%;
+    height: 800px;
+    /* background-color: crimson;  */
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.gamemtavari{
+    width: 100%;
+    height: 400px;
+    /* background-color: #4a9b4a; */
+    display: flex;
+}
+.gameubralo{
+    /* width: 100%; */
+    height: 400px;
+    /* background-color: aqua; */
+    display: flex;
+}
+  
+.box{
+    width: 680px;
+    height: 400px;
+    /* background-color: #b8b7b7; */
+    margin:0px auto;
+}
+.box img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.gameh{
+    color: #0668a0;
+    margin-top: 10px;
+}
+.box {
+    color: #0668a0;
+    text-align: center;
+}
+.gametext {
+   color: #ffffff; 
+   margin-top: 20px;
+}
+.purchase{ 
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0px auto;
+    margin-top: 150px;
+    padding: 10px;
+    background-color:#802020;
+    width: 280px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.purchase:hover{
+    background-color: #b40606;
+}
+.subscribe a img {
+    width: 20px;
+    height: 20px;
+}
+/* witcheri */
+.witcherh {
+    margin-top: 10px;
+    color: #b40606;
+}
+/* callofduty */
+.callofduty{
+    padding-top: 10px;
+    color: #087e02;
+
+}
+/* diablo */
+.diablo{
+    color: #520000;
+}
+/* Fortnite */
+.fortnite{
+    color: #d306c2;
+}
+/* GTA */
+.gta{
+    color: #f8ab04;
+
+}
+/* assasin */
+.assasin {
+    color: #4a3508;
+}
+/* dota */
+.dota {
+    color: #ef1e1e;
+}
+/* god of war */
+.godofwar{
+    color: #0814bf;
+}
+/* mortal kombat */
+.mortalkombat {
+    color: #630231;
+}
+/* AboutUs gverdiiiii  */
+
+.aboutus{
+    background-color: #000000;
+}
+.aboutcontainer{
+    position: relative;
+    display: flex;
+}
+.abouttexti{
+    width: 700px;
+    height: 300px;
+    /* background-color: #00f2ff; */
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 50px;
+    
+}
+.aboutherti{
+    color: #f8c200;
+    /* margin-left: 280px;
+    margin-top: 100px; */
+    font-size: 50px;
+    font-weight: 600;
+}
+.abouthori{
+    color: #f8c200;
+    font-size: 60px;
+    /* margin-right: 45%;
+    margin-top: 20px; */
+    
+
+}
+.abouttext{
+    font-size: 20px;
+    color: #ffffff;
+    /* width: 300px; */
+    margin-top: 50px;
+ 
+    
+}
+
+.aboutsocial {
+    margin-left: 280px;
+    margin-top: 0px;
+}
+.gamezonelogo{
+    margin-left: 150px;
+    margin-top: 100px;
+    animation: GameZone 3s ease-in-out infinite;
+}
+
+@keyframes GameZone {
+    0% {
+        transform: translateY();
+    }
+    50% {
+        transform: translateY(-100px);
+    }
+    100% {
+        transform: translateY();
+    }
+}
